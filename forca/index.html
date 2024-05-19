@@ -4,19 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da forca</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../forca/style.css">
     <link rel="stylesheet" href="../globalStyle.css">
 </head>
 <header>
     <h1>JOGO DA FORCA</h1>
 </header>
 <body>
-    <input type="text" id="textoUsuario">
-    <br>
-    <button id="enviar">ENVIAR</button>
     <p id="palavraCompleta"></p>
+    <table id="teclado">
+        <tr id="tecladoPT1">
+            <td id="letraQ">Q</td>
+            <td id="letraW">W</td>
+            <td id="letraE">E</td>
+            <td id="letraR">R</td>
+            <td id="letraT">T</td>
+            <td id="letraY">Y</td>
+            <td id="letraU">U</td>
+            <td id="letraI">I</td>
+            <td id="letraO">O</td>
+            <td id="letraP">P</td>
+        </tr>
+        <tr id="tecladoPT2">
+            <td id="letraA">A</td>
+            <td id="letraS">S</td>
+            <td id="letraD">D</td>
+            <td id="letraF">F</td>
+            <td id="letraG">G</td>
+            <td id="letraH">H</td>
+            <td id="letraJ">J</td>
+            <td id="letraK">K</td>
+            <td id="letraL">L</td>
+        </tr>
+        <tr id="tecladoPT3">
+            <td id="letraZ">Z</td>
+            <td id="letraX">X</td>
+            <td id="letraC">C</td>
+            <td id="letraV">V</td>
+            <td id="letraB">B</td>
+            <td id="letraN">N</td>
+            <td id="letraM">M</td>
+        </tr>
+    </table>
+
     <p id="listaErros"></p>
-    <p id="errosTotais"></p>
     <button id="informacoes">COMO JOGAR</button>
     <script src="script.js" type="module"></script>
 </body>

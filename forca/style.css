@@ -22,3 +22,28 @@ body{
     display: flex;
     letter-spacing: 2px;
 }
+
+#teclado {
+    margin: 20px;
+}
+#teclado td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    width: 50px; /* Largura da célula */
+    height: 50px; /* Altura da célula */
+}
+#teclado td:hover {
+    background-color: #f0f0f0;
+}
+
+#tecladoPT2{
+    position: relative;
+    left: 5%;
+}
+
+#tecladoPT3{
+    position: relative;
+    left: 10%;
+}

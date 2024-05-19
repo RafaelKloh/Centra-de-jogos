@@ -70,7 +70,7 @@ export function modalPerdedor() {
       - Evite repetir letras.
       <br><br>
       Divirta-se e tente adivinhar a palavra antes de cometer muitos erros!<p>
-          <button id="botaoModal">RECOMEÇAR</button>
+          <button id="botaoModal">FECHAR</button>
       </div>
   </div>
       `
