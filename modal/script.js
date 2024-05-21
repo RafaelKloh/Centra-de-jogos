@@ -79,6 +79,71 @@ export function modalPerdedor() {
     botaoModal.addEventListener("click", () => {
       const modalContainer = document.querySelector(".modalContainer");
       modalContainer.remove();
-      window.location.replace("../forca/index.html")
+    });
+  }
+
+  export function modalXGanha() {
+    const body = document.body;
+    body.insertAdjacentHTML(
+      "beforeend",
+      `
+      <div class="modalContainer">
+      <div class="modalPrincipal">
+      <p>X GANHOU<p>
+      <spam>🏆🏆🏆<spam>
+          <button id="botaoModal">RECOMEÇAR</button>
+      </div>
+  </div>
+      `
+    );
+    const botaoModal = document.querySelector("#botaoModal");
+    botaoModal.addEventListener("click", () => {
+      const modalContainer = document.querySelector(".modalContainer");
+      modalContainer.remove();
+      window.location.replace("../velha/index.html")
+    });
+  }
+
+  export function modalOGanha() {
+    const body = document.body;
+    body.insertAdjacentHTML(
+      "beforeend",
+      `
+      <div class="modalContainer">
+      <div class="modalPrincipal">
+      <p>O GANHOU<p>
+      <spam>🏆🏆🏆<spam>
+          <button id="botaoModal">RECOMEÇAR</button>
+      </div>
+  </div>
+      `
+    );
+    const botaoModal = document.querySelector("#botaoModal");
+    botaoModal.addEventListener("click", () => {
+      const modalContainer = document.querySelector(".modalContainer");
+      modalContainer.remove();
+      window.location.replace("../velha/index.html")
+    });
+  }
+
+  export function modalVelha() {
+    const body = document.body;
+    body.insertAdjacentHTML(
+      "beforeend",
+      `
+      <div class="modalContainer">
+      <div class="modalPrincipal">
+      <p>DEU VELHA<p>
+      <spam>🥶😵🥶<spam>
+          <button id="botaoModal">RECOMEÇAR</button>
+      </div>
+  </div>
+      `
+    );
+    const botaoModal = document.querySelector("#botaoModal");
+    botaoModal.addEventListener("click", () => {
+      const modalContainer = document.querySelector(".modalContainer");
+      modalContainer.remove();
+      window.location.replace("../velha/index.html")
     });
   }
